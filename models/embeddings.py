@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
 # Load embedding model once
-embedding_model = SentenceTransformer("Tushar0505/fine-tuned-legal-bert")
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Global storage for knowledge base
 documents = []
